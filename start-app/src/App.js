@@ -54,8 +54,6 @@ export const App = () => {
 
 	output = operand1 + operator + operand2;
 
-	console.debug('1 ' + operand1, '2 ' + operator, '3 ' + operand2);
-
 	return (
 		<div className="App">
 			<div className={styles.container}>
