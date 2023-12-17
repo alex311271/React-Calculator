@@ -18,8 +18,8 @@ export const App = () => {
 			setIsResult(false);
 		}
 		if (
-			(operand1 && !Number(value) && value === '+') ||
-			(operand1 && !Number(value) && value === '-')
+			(operand1 && value === '+') ||
+			(operand1 && value === '-')
 		) {
 			setOperator(value);
 			setIsResult(false);
