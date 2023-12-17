@@ -17,7 +17,10 @@ export const App = () => {
 			setOperand1(operand1.concat(value));
 			setIsResult(false);
 		}
-		if ((!Number(value) && value === '+') || (!Number(value) && value === '-')) {
+		if (
+			(operand1 && !Number(value) && value === '+') ||
+			(operand1 && !Number(value) && value === '-')
+		) {
 			setOperator(value);
 			setIsResult(false);
 		}
