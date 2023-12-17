@@ -1,5 +1,4 @@
 import styles from './css.style.module.css';
-// import {Buttons} from './buttons';
 import { useState } from 'react';
 
 export const App = () => {
